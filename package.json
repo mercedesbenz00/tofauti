@@ -1,0 +1,9 @@
+{
+  "name": "tofauti",
+  "version": "1.0.0",
+  "description": "Non-fungible tokens related content",
+  "main": "index.js",
+  "repository": "git@github.com:openintents/tofauti",
+  "author": "Friedger Müffke <mail@friedger.de>",
+  "license": "APL2"
+}

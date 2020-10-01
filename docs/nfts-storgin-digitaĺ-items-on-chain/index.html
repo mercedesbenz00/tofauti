@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>NFTs - Storing Digital Items On-Chain</title>
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# NFTs
+
+## Storing Digital Items On-Chain
+
+Stacks Foundation Grant - Open Riff  
+Blockchain Garage Brussels  
+Friedger Müffke - 1st Oct 2020
+</script></section><section  data-markdown><script type="text/template">
+## Blockchain View
+
+- Smartcontract
+- Identifier
+- Account as owner
+- On-chain meta data
+
+Standards: ERC721, dgoods
+</script></section><section  data-markdown><script type="text/template">
+## Blockchain View (2)
+
+|            |                                   |              |
+| ---------- | --------------------------------- | ------------ |
+| Meta data  | <span style="color:blue">↦</span> | Class of NFT |
+| Contract   | <span style="color:blue">↦</span> | Type of NFT  |
+| Identifier | <span style="color:blue">↦</span> | NFT          |
+|            |                                   |              |
+</script></section><section  data-markdown><script type="text/template">
+## Computer Science View
+
+- Control over a single Database table row
+- Database scheme = Meta Data
+</script></section><section  data-markdown><script type="text/template">
+## Social View
+
+- Unique item
+- Features
+- Value
+</script></section><section  data-markdown><script type="text/template">
+![Cryptokitties](cryptokitties.png)
+
+[Cryptokitties](https://www.cryptokitties.co) (2017)
+
+Game / Network Throttle <!-- .element: class="fragment" data-fragment-index="1" -->
+</script></section><section  data-markdown><script type="text/template">
+![Panini](paniniblockchain.png)
+
+[Pannini Blockchain](https://www.paniniamerica.net/blockchain.html) (2019)
+
+Collectable / Making Money <!-- .element: class="fragment" data-fragment-index="1" -->
+</script></section><section  data-markdown><script type="text/template">
+![Pixeos](pixeos.png)
+
+[Pixeos](https://gallery.pixeos.art)
+
+Collectable / Art <!-- .element: class="fragment" data-fragment-index="1" -->
+</script></section><section  data-markdown><script type="text/template">
+![Azure Hero](azurehero.png)
+
+[Azure Heros](https://microsoft.enjinx.io/eth/platform/3368) (2019)
+
+Badge / Real-World Achievements <!-- .element: class="fragment" data-fragment-index="1" -->
+</script></section><section  data-markdown><script type="text/template">
+![Prospectors](prospectors.png)
+
+[Prospectors](https://prospectors.io/) (2019)
+
+Game items / Play for Profit / Cross Game<!-- .element: class="fragment" data-fragment-index="1" -->
+</script></section><section  data-markdown><script type="text/template">
+## Change of Ownership
+
+- Off-Chain: Simple transfer contract call
+- On-Chain: Marketplace contract,  
+   e.g. OpenSea, OpenRiff (tba)
+- Token with Marketplace
+</script></section><section  data-markdown><script type="text/template">
+## 2020
+
+- Recently hyped
+- Profit Sharing (creator + fees property)
+- Farm for NFTs [Meme Protocol](https://dontbuymeme.com)
+- DAO to buy NFTs [Flamingo](https://flamingodao.xyz/)
+</script></section><section  data-markdown><script type="text/template">
+## Questions?
+</script></section><section  data-markdown><script type="text/template">
+## From the community
+
+- NFT for pool
+- Partial ownership of NFT
+- https://www.larvalabs.com/cryptopunks
+- https://superrare.co/
+- https://knownorigin.io/
+- https://rabbidstoken.ubisoft.com/
+- https://niftygateway.com/whatisanifty
+- [NFTs on OpenSea](https://opensea.io/blog/guides/non-fungible-tokens/)
+- https://nifty.ink
+</script></section><section  data-markdown><script type="text/template"></script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
