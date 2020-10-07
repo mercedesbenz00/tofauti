@@ -1,5 +1,7 @@
 # Tofauti
 
+[Landing page](https://tofauti.mailchimpsites.com/)
+
 ## Creating Non-Fungible Tokens
 
 ### Weekly Sessions
