@@ -2,6 +2,8 @@
 title: NFTs - Which Standard to Use
 ---
 
+<!-- .slide: data-background="./tools.jpg" data-background-opacity="0.3" -->
+
 # NFTs
 
 ## Which Standard To Use
@@ -109,3 +111,11 @@ write-meta-data
 [Profit Sharing](https://github.com/friedger/clarity-profit-sharing-token/blob/master/contracts/token.clar)
 
 [Loopbomb](https://github.com/radicleart/fe-mesh/blob/master/contracts/nongibles.clar)
+
+---
+
+## Comments
+
+- NFTs as a use license for digital files
+- [ISCC: International Standard Content Code](https://github.com/iscc/iscc-specs)
+- [Arkane - Blockchain as a service](https://arkane.network/)
