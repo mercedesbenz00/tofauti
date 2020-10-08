@@ -1,6 +1,5 @@
 ---
 title: NFTs - Storing Digital Items On-Chain
-theme: white
 ---
 
 # NFTs
