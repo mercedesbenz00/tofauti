@@ -10,7 +10,7 @@
     "build:nft1": "reveal-md slides/nfts-storing-digital-items-on-chain/nfts-storing-digital-items-on-chain.md --theme black --static docs/nfts-storing-digital-items-on-chain ",
     "build:nft2": "reveal-md slides/nfts-which-standard-to-use/nfts-which-standard-to-use.md --theme black --static docs/nfts-which-standard-to-use",
     "build": "yarn build:nft1 build:nft2",
-    "dev": "reveal-md slides/nfts-which-standard-to-use.md --theme black  -w"
+    "dev": "reveal-md slides/nfts-which-standard-to-use/nfts-which-standard-to-use.md --theme black  -w"
   },
   "devDependencies": {
     "reveal-md": "^4.1.6"
