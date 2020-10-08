@@ -8,6 +8,6 @@ Non-Fungible Tokens related content
 
 ### Weekly Sessions
 
-- [1st Oct 2020](https://tofauti.net/nfts-storing-digital-items-on-chain)
+- [1st Oct 2020](/nfts-storing-digital-items-on-chain)
 
-- [8st Oct 2020](http://tofauti.net/nfts-which-standard-to-use)
+- [8st Oct 2020](/nfts-which-standard-to-use)
