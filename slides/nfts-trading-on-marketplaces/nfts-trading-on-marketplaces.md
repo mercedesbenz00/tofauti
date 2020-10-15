@@ -53,6 +53,13 @@ Note: offer via token or marketplace
 
 ---
 
+## Issues
+
+- Only send (metamask)
+- Selected tokens only (decentraland, sandbox, ..)
+
+---
+
 ## Tokenscript
 
 Middleware between smart contract and dapps/wallets/marketplaces
@@ -67,4 +74,30 @@ Middleware between smart contract and dapps/wallets/marketplaces
 
 ## From the community
 
+- Schema for controls, meta data in the contract
+
+```
+"Meta data for this contract"
+
+(define-public (register (created int))
+    "Meta data for this function"
+    {control: "button", arguments: {created: "week"}}
+    (ok "registered"))
+```
+
 ---
+
+## From the community
+
+- Audio clip NFT (blockparty)
+- Business side
+- Need templates
+
+---
+
+## From the community
+
+Links:
+
+- https://blockchain.art
+- https://dustidentity.com/
