@@ -2,12 +2,8 @@
 
 Non-Fungible Tokens related content
 
-[Landing page](https://tofauti.mailchimpsites.com/)
+[Landing page](https://tofauti.mailchimpsites.com/) (to be merged into this page)
 
 ## Creating Non-Fungible Tokens
 
-### Weekly Sessions
-
-- [1st Oct 2020](/nfts-storing-digital-items-on-chain)
-
-- [8st Oct 2020](/nfts-which-standard-to-use)
+Slide for Weekly Sessions are in the docs folder and on [tofauti.net](https://tofauti.net)

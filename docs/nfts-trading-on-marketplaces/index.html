@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>NFTs - Which Standard to Use</title>
+    <title>NFTs - Trading on Marketplaces</title>
     <link rel="shortcut icon" href="./favicon.ico"/>
     <link rel="stylesheet" href="./dist/reveal.css" />
     <link rel="stylesheet" href="./dist/theme/black.css" id="theme" />
@@ -15,96 +15,57 @@
     <div class="reveal">
       <div class="slides"><section  data-markdown><script type="text/template">
 
-<!-- .slide: data-background="./tools.jpg" data-background-opacity="0.3" -->
+<!-- .slide: data-background="./marketplace.jpg" data-background-opacity="0.3" -->
 
-# NFTs
+# NFTS
 
-## Which Standard To Use
+## Trading on Marketplaces
 
 Stacks Foundation Grant - Open Riff  
 Blockchain Garage Brussels  
-Friedger Müffke - 8th Oct 2020
+Friedger Müffke - 15th Oct 2020
 </script></section><section  data-markdown><script type="text/template">
-## Identifiable
+<!-- .slide: data-background="#ffffff" -->
 
-token-id
-
-## Trackable
-
-owner-of?
-
-balance-of <!-- .element: class="fragment" data-fragment-index="1" -->
+![stacks marketplace](./stacks-marketplace-long.png)
 </script></section><section  data-markdown><script type="text/template">
-## Transferrable
+## Review
 
-transfer-from  
-safe-transfer-from  
-batch-transfer-from  
-safe-batch-transfer-from
+- NFTs are unique and transferable
+- NFTs can have other properties
+- NFTs have meta data
+- Wallet support <!-- .element: class="fragment" data-fragment-index="1" -->
+
+<aside class="notes"><p>Metamask send NFTs pnly</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Marketplaces
+
+1. **Put on offer**
+1. **Place bid**
+1. **Accept**
+1. **Exchange**
+
+Exception handling <!-- .element: class="fragment" data-fragment-index="1" -->
+
+<aside class="notes"><p>offer via token or marketplace</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Bidding
+
+- Instant pay (opensea) <!-- .element: class="fragment" data-fragment-index="1" -->
+- Time-based auction (dgoods.org) <!-- .element: class="fragment" data-fragment-index="2" -->
+- Dutch auction (allienworlds.io) <!-- .element: class="fragment" data-fragment-index="3" -->
+- Vickrey auction (handshake.org) <!-- .element: class="fragment" data-fragment-index="4" -->
 </script></section><section  data-markdown><script type="text/template">
-## Operator Enabled
+## Tokenscript
 
-approve  
-set-approval-for-all
+Middleware between smart contract and dapps/wallets/marketplaces
 </script></section><section  data-markdown><script type="text/template">
-## Enumerable
+<!-- .slide: data-background="./stack-on-black.png" data-background-opacity="0.3" -->
 
-total-supply  
-token-by-index  
-token-of-owner-by-index
+## Questions?
 </script></section><section  data-markdown><script type="text/template">
-## Tradable
-
-list-sale  
-close-sale
-</script></section><section  data-markdown><script type="text/template">
-## Composable
-
-root-owner-of?  
-transfer-child
-</script></section><section  data-markdown><script type="text/template">
-## Profit Sharing Enabled
-
-creator-of  
-profit-share
-</script></section><section  data-markdown><script type="text/template">
-## Rentable
-
-user-of?  
-set-lien/set-tenant-right  
-revoke-lien/revoke-tenant-right
-</script></section><section  data-markdown><script type="text/template">
-## Fungible
-
-owner-of (a list)
-</script></section><section  data-markdown><script type="text/template">
-# Meta Data
-
-- name/image
-- URI + hash
-</script></section><section  data-markdown><script type="text/template">
-## Updateable
-
-write-meta-data
-</script></section><section  data-markdown><script type="text/template">
-# NFTs in Clarity
-</script></section><section  data-markdown><script type="text/template">
-[ERC721](https://github.com/blockstack/clarity-js-sdk/blob/master/packages/clarity-tutorials/contracts/tokens/non-fungible-token.clar)
-
-[Monsters](https://github.com/friedger/clarity-marketplace/blob/master/contracts/monsters.clar)
-
-[Composable](https://github.com/dotrungkien/clarity-composable-token)
-
-[Profit Sharing](https://github.com/friedger/clarity-profit-sharing-token/blob/master/contracts/token.clar)
-
-[Loopbomb](https://github.com/radicleart/fe-mesh/blob/master/contracts/nongibles.clar)
-</script></section><section  data-markdown><script type="text/template">
-## Comments
-
-- NFTs as a use license for digital files
-- [ISCC: International Standard Content Code](https://github.com/iscc/iscc-specs)
-- [Arkane - Blockchain as a service](https://arkane.network/)
-</script></section></div>
+## From the community
+</script></section><section  data-markdown><script type="text/template"></script></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>

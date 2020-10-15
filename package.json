@@ -9,8 +9,9 @@
   "scripts": {
     "build:nft1": "reveal-md slides/nfts-storing-digital-items-on-chain/nfts-storing-digital-items-on-chain.md --theme black --static docs/nfts-storing-digital-items-on-chain ",
     "build:nft2": "reveal-md slides/nfts-which-standard-to-use/nfts-which-standard-to-use.md --theme black --static docs/nfts-which-standard-to-use",
-    "build": "yarn build:nft1 build:nft2",
-    "dev": "reveal-md slides/nfts-which-standard-to-use/nfts-which-standard-to-use.md --theme black  -w"
+    "build:nft3": "reveal-md slides/nfts-trading-on-marketplaces/nfts-trading-on-marketplaces.md --theme black --static docs/nfts-trading-on-marketplaces",
+    "build": "yarn build:nft1 && yarn build:nft2 && yarn build:nft3",
+    "dev": "reveal-md slides/nfts-trading-on-marketplaces/nfts-trading-on-marketplaces.md --theme black  -w --shownotes"
   },
   "devDependencies": {
     "reveal-md": "^4.1.6"

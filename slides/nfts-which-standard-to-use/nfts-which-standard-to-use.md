@@ -10,7 +10,7 @@ title: NFTs - Which Standard to Use
 
 Stacks Foundation Grant - Open Riff  
 Blockchain Garage Brussels  
-Friedger Müffke - 1st Oct 2020
+Friedger Müffke - 8th Oct 2020
 
 ---
 

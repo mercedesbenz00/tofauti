@@ -11,3 +11,5 @@ Non-Fungible Tokens related content
 - [1st Oct 2020](/nfts-storing-digital-items-on-chain)
 
 - [8st Oct 2020](/nfts-which-standard-to-use)
+
+- [15st Oct 2020](/nfts-trading-on-marketplaces)
