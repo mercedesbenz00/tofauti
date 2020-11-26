@@ -16,4 +16,4 @@ Non-Fungible Tokens related content
 
 ### Informal Sessions
 
-- [11th Nov 2020](/2020-11-16.md)
+- [11th Nov 2020](/2020-11-16)
