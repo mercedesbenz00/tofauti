@@ -1,5 +1,3 @@
-title: Tofauti
----
 # Tofauti
 
 Non-Fungible Tokens related content
