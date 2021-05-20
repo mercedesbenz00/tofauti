@@ -12,5 +12,5 @@ NFTs for pool members of cycle #3 and cycle #4.
 ## [Quotes](https://explorer.stacks.co/txid/SP32AEEF6WW5Y0NMJ1S8SBSZDAY8R5J32NBZFPKKZ.quotes-v1?chain=mainnet) 
 Quotes as NFTs.
 
-## [Boombox Cylce #6](https://explorer.stacks.co/txid/SP497E7RX3233ATBS2AB9G4WTHB63X5PBSP5VGAQ.boomboxes-cycle-6?chain=mainnet) 
+## [Boombox Cycle #6](https://explorer.stacks.co/txid/SP497E7RX3233ATBS2AB9G4WTHB63X5PBSP5VGAQ.boomboxes-cycle-6?chain=mainnet) 
 NFT for stacking reward of cycle #6.
