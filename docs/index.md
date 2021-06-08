@@ -6,7 +6,7 @@ Non-Fungible Tokens related content
 
 ## SIP-009 NFT Standard
 
-Currently, the proposed standard for non-fungible tokens is in "Activation in progress" state. You can find the standard [here](https://github.com/stacksgov/sips/pull/3).
+Currently, the proposed standard for non-fungible tokens is in "Activation in progress" state. You can find the standard [here](https://github.com/stacksgov/sips/blob/main/sips/sip-009/sip-009-nft-standard.md).
 
 ### SIP9-compliant NFTs on mainnet
 
