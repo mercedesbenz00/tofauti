@@ -19,7 +19,7 @@ Quotes as NFTs.
 _Block 11927 - unlimited_
 
 ### [This is #1](https://explorer.stacks.co/txid/SP3QSAJQ4EA8WXEDSRRKMZZ29NH91VZ6C5X88FGZQ.thisisnumberone-v2?chain=mainnet)
- Platform for digital art work.
+ Platform for digital art work (version 1 minted 5 NFTs from block 14551)
 
 _Block 15313 - unlimited_
 
