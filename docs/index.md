@@ -6,11 +6,11 @@ Non-Fungible Tokens related content
 
 ## SIP-009 NFT Standard
 
-Currently, the proposed standard for non-fungible tokens is in "Activation in progress" state. You can find the standard [here](https://github.com/stacksgov/sips/pull/3).
+The standard for non-fungible tokens has been ratified and is active. You can find the standard [here](https://github.com/stacksgov/sips/blob/main/sips/sip-009/sip-009-nft-standard.md).
 
 ### SIP9-compliant NFTs on mainnet
 
-See list of selected NFTS [here](nfts.md)
+See list of selected NFTS [here](nfts.md).
 ### Wallets with NFT support
 
 - [Boom](https://boom.money)
@@ -18,6 +18,8 @@ See list of selected NFTS [here](nfts.md)
 ### Marketplaces for NFTs
 
 - [Risidio #1](https://thisisnumberone.com)
+- [Stacks Art](https://stacksart.com)
+- [Byzantion](https://byzantion.xyz/)
 
 ## Creating Non-Fungible Tokens
 
